@@ -1,0 +1,26 @@
+.zc{
+	font-size: 22px;
+    color: #333333;
+    margin-top: 26px;
+    line-height: 26px;
+    height: 26px;
+    margin-left: -20px;
+    border-left: 2px solid rgb(221, 221, 221);
+    padding-left: 15px;
+    float: left;
+	font-weight: 500;
+}
+.nav-left img{
+	margin-left: 40px;
+	width: 280px;
+	height: 100px;
+	margin-top: -10px;
+}
+.module{
+	height: 628px;
+	background: #717171;
+}
+.register{
+	width: 320px;
+    margin: 66px auto 0px auto;
+}
