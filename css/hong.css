@@ -67,6 +67,9 @@ header ul li a:hover{
 	color: white;
 	margin: 0 5px;
 }
+.header-right ul a:hover{
+	color: red;
+}
 .header-right{
 	margin-right: 80px;
 }
@@ -109,7 +112,7 @@ header ul li a:hover{
 	padding-left: 10px;
     height: 38px;
     line-height: 38px;
-    line-height: 38px\9;
+    line-height: 38px;
     font-size: 14px;
     color: #a9a9a9;
     float: left;
@@ -183,6 +186,35 @@ header ul li a:hover{
 .menu7{
 	background: url(../img/inner-other-icon.png) no-repeat 30px center;
 	background-position: 18px center;
+}
+/* 左边小盒子楼梯效果 */
+.left-box{
+	width: 45px;
+	position: fixed;
+	top:30%;
+	left: 0;
+}
+.left-box ul li{
+    width: 45px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+.left-box ul li a{
+	display: block;
+    font-size: 14px;
+    color: #666;
+    border-bottom: 1px solid #d6d6d6;
+	cursor: pointer;
+}
+.right-box{
+    position: fixed;
+    right: 0;
+    top: 50%;
+}
+.right-box ul li{
+    border-top: 1px solid #f9f9f9;
+    border-bottom: 1px solid #f9f9f9;
 }
 /* banner图 */
 #banner{
@@ -354,15 +386,6 @@ header ul li a:hover{
 }
 
 /* 底部部分 */
-.logistics{
-    padding: 37px 25px 0px;
-    height: 77px;
-    border-bottom: 1px solid #dddddd;
-}
-.logistics ul li{
-    float: left;
-    /* margin-left: 260px; */
-}
 .footer {
     background: #efefef;
 	margin-top: 50px;
@@ -551,5 +574,9 @@ header ul li a:hover{
 .foot-note p a {
     color: #999999;
 }
+.active{
+	background: red;
+}
+
 
 
