@@ -105,17 +105,20 @@ header ul li a:hover {
 }
 
 .header-right {
-    margin-right: 80px;
+    margin-right: 50px;
+    text-align: center;
 }
 
 .header-right ul li a {
-    display: block;
-    height: 18px;
-    line-height: 18px;
+    height: 34px;
+    line-height: 34px;
     color: #ffffff;
     padding-left: 25px;
+    padding-right: 25px;
+    display: block;
+    text-align: center;
     font-size: 12px;
-    margin-top: 9px;
+    margin-top: 1px;
 }
 
 
@@ -132,7 +135,7 @@ header ul li a:hover {
 }
 
 .nav ul {
-    margin-left: 80px;
+    margin-left: 40px;
 }
 
 .nav ul li {
@@ -204,7 +207,7 @@ header ul li a:hover {
 }
 
 .menu ul li:hover {
-    background: #f12020;
+    /* background: #f12020; */
 }
 
 .menu ul li a {
@@ -712,3 +715,15 @@ a.active {
 .link li a:hover {
     background: red;
 }
+
+.menu ul li:hover {
+    background-position: 18px center;
+    background: #f12020;
+}
+
+
+/* .menu1:hover{
+	background: url(../img/inner-chiq-icon.png) no-repeat 30px center;
+	background-position: 18px center;
+    display: block;
+} */
