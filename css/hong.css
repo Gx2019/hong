@@ -417,12 +417,6 @@ header ul li a:hover{
     width: 186px;
     margin-left: 48px;
 }
-/* .help-about{
-	margin-left: 40px;
-}
-.help-server{
-	margin-left: 40px;
-} */
 .help-server ul li.help-title {
     font-size: 16px;
     color: #333333;
@@ -577,6 +571,8 @@ header ul li a:hover{
 .active{
 	background: red;
 }
-
+.link li a:hover{
+background: red;
+}
 
 
