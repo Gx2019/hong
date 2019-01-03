@@ -29,18 +29,17 @@
     width: 800px;
     margin: 0 auto;
 }
-
 input {
     width: 300px;
-    height: 30px;
+    height: 38px;
     border: 1px solid #ccc;
     margin-bottom: 40px;
     margin-left: 10px;
     /* border: 1px solid #e34f75; */
 }
 .register .code {
-    width: 100px;
-    height: 30px;
+    width: 160px;
+    height: 38px;
     border: 1px sol
 }
 .agree {
