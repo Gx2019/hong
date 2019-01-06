@@ -103,3 +103,21 @@ h3{
 .judge{
     margin-left: 170px;
 }
+.checkCode{
+	margin-left: 6px;
+	height: 40px;
+	background: #585858;
+	
+}
+#btn{
+	height: 40px;
+    line-height: 20px;
+    font-size: 14px;
+    color: #666;
+    /* display: block; */
+    top: 0px;
+    left: 100%;
+    white-space: nowrap;
+    cursor: pointer;
+    margin-left: 4px;
+}

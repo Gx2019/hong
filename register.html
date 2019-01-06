@@ -66,7 +66,7 @@
 	</div>
 
 	<div class="register">
-		<form action="http://www.baidu.com" class="form">
+		<form class="form">
 			<p>手机号码
 				<input type="" class="phonenumber" placeholder="&nbsp;&nbsp;请输入手机号" />
 				<span></span>
@@ -83,9 +83,10 @@
 			</p>
 			<p>图形验证
 				<input type="" class="code" placeholder="&nbsp;&nbsp;请输入四位验证码" />
-				<strong></strong>
-				<i>看不清？换一张</i>
-				<span></span>
+				<span id = "checkCode" style="width: 90px;"></span>
+					<button id = "btn" onclick="checkCode()">看不清？换一张</button>
+				<!-- <i></i>    ../code.do?t=1546523752949
+				<span></span> -->
 			</p>
 			<p>短信验证
 				<input type="" class="code" placeholder="&nbsp;&nbsp;请输入短信验证码" />
