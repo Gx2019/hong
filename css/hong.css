@@ -110,15 +110,14 @@ header ul li a:hover {
 }
 
 .header-right ul li a {
-    height: 34px;
-    line-height: 34px;
+    height: 35px;
+    line-height: 35px;
     color: #ffffff;
     padding-left: 25px;
     padding-right: 25px;
     display: block;
     text-align: center;
     font-size: 12px;
-    margin-top: 1px;
 }
 
 
