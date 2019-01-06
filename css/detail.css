@@ -112,6 +112,7 @@ body {
     height: 28px;
     padding: 6px 16px 6px 5px;
     background: url(../img/x003.png) no-repeat right center;
+    font-style: normal;
 }
 
 .address-title {
